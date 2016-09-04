@@ -43,10 +43,12 @@ docker pull index.alauda.cn/sameersbn/gitlab
 因为还要安装postgreSQL和redis，一个个pull太慢了，而且docker启动命令也很长，这时我们就可以发挥docker compose的作用了，参考sammersbn推荐的做法，执行：
 ``` bash
 wget https://raw.githubusercontent.com/sameersbn/docker-gitlab/master/docker-compose.yml
+  docker-compose up -d
 ```
 下载后使用pwgen生成`GITLAB_SECRETS_DB_KEY_BASE`所需的key，
 
 可定制其中的配置项，然后执行
-``` bash
+``` 
+bash
 
 ```
