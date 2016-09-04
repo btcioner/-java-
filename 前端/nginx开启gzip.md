@@ -69,3 +69,14 @@ http {
     }
 }
 ```
+
+gzip开启
+```
+    gzip  on;
+        gzip_comp_level 3;
+        gzip_min_length 1024;
+        gzip_types  text/plain text/css text/xml text/javascript application/javascript application/x-javascript application/json;
+        gzip_disable "MSIE [4-6]\.";
+        gzip_vary on;
+
+```
