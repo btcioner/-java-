@@ -24,7 +24,7 @@ watchman shutdown-server
 -keep class com.google.android.gms.** { *; }
 -dontwarn com.google.android.gms.**
 -dontwarn butterknife.**
-``
+```
 
 
 或者依据终端显示警告
