@@ -16,7 +16,7 @@ watchman shutdown-server
 在在proguard-rules.pro文件末尾增加
 
 
-‵``
+```
 -dontwarn java.nio.file.Files
 -dontwarn java.nio.file.Path
 -dontwarn java.nio.file.OpenOption
