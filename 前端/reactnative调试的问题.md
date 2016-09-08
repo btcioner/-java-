@@ -13,7 +13,9 @@ watchman shutdown-server
 ```
 
 # 有时打包失败出现*Unable to compute hash of /../AndroidStudioProjects/../classes.jar*
-在在proguard-rules.pro文件末尾增加 
+在在proguard-rules.pro文件末尾增加
+
+
 ‵``
 -dontwarn java.nio.file.Files
 -dontwarn java.nio.file.Path
@@ -23,6 +25,8 @@ watchman shutdown-server
 -dontwarn com.google.android.gms.**
 -dontwarn butterknife.**
 ``
+
+
 或者依据终端显示警告
 ```
   -dontwarn XXXXXXXXX
