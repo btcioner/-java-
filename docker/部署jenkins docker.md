@@ -26,7 +26,7 @@ RUN chmod +x /usr/local/bin/dockerjenkins.sh
 
 VOLUME /var/lib/docker
 
-EXPOSE 8180
+EXPOSE 8080
 
 ENTRYPOINT [ "/usr/local/bin/dockerjenkins.sh" ]
 -----------------------------------------------------------------------------------------
