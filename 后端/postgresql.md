@@ -1,3 +1,9 @@
+登陆数据库
+```
+psql -U postgres
+
+```
+
 创建用户
 ```
 create user sms with login password 'passwd'; 
