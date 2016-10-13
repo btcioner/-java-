@@ -16,3 +16,8 @@ CREATE SCHEMA myschema;
  ```
  grant all on all tables in schema schemaName to user;
  ```
+给特定用户创建数据库
+```
+
+CREATE DATABASE soedb OWNER sms;
+```
